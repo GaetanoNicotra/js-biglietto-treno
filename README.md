@@ -21,7 +21,9 @@ Ricordatevi di spezzare il problema in sottoproblemi come visto a lezione nel fi
 
 // Calcoliamo il prezzo del biglietto:
 
+// definiamo una variabile per il calcolo 
+
 // moltiplichiamo il numero dei chilometeri da percorre per euro 0.21
 // se il passeggero è minorenne applichiamo uno sconto del 20%
 // se il passeggero è un over 65 applichiamo uno sconto del 40%
-// per finire calcoliamo il prezzo totale del biglietto con massimo due cifre decimali e lo mostriamo in console.
+// per finire calcoliamo il prezzo totale del biglietto con massimo due cifre decimali e lo mostriamo in console 
