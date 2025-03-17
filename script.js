@@ -10,7 +10,7 @@ let age = prompt("Inserisci la tua età")
 // definiamo un a variabile per il calcolo
 // mostriamo il risultato in console
 
-let distancePrice = distance * 0.21;
+let distancePrice = (distance * 0.21).toFixed(2);
 console.log(distancePrice + " " + "Euro (Prezzo intero)");
 
 
@@ -20,13 +20,13 @@ console.log(distancePrice + " " + "Euro (Prezzo intero)");
 // mostriamo il risultato in console
 
 if(age < 18){
-    let priceUnderage = distancePrice * 20 / 100;
-    console.log(priceUnderage  + " " + "Euro (prezzo scontato)");
+    let priceUnderage = (distancePrice * 20 / 100).toFixed(2);
+    console.log(priceUnderage  + " " + "Euro (prezzo scontato per minorenni)");
 }
 
 else if(age > 65){
-    let priceOver65 = distancePrice * 40 / 100;
-    console.log(priceOver65  + " " + "Euro (Prezzo scontato)");
+    let priceOver65 = (distancePrice * 40 / 100).toFixed(2);
+    console.log(priceOver65  + " " + "Euro (Prezzo scontato per magiorenni)");
 }
 
 else{
